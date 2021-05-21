@@ -82,7 +82,7 @@ const KSTry = () => {
     let tryArray = []
     for(let i=0; i<valuesNumber; i++)tryArray.push(generateFunc()/mod)
     tryArray.sort(function (a, b) {
-        return b - a;
+        return a - b;
     })
     let maxPlus = 0
     let maxMinus = 0
