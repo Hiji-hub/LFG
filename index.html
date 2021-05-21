@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="text">
+        <textarea class="area"></textarea>
+    </div>
+    <div class="btns">
+        <div>
+            <button class="gen btn">Сгенерировать</button>
+        </div>
+        <div>
+            <button class="try1 btn">Хи2 критерий</button>
+            <p>χ²: <span class="chi2">-</span></p>
+            <p>Тест: <span class="chi2-status">-</span></p>
+        </div>
+        <div>
+            <button class="try2 btn">КС критерий</button>
+            <p>Kₙ⁺: <span class="kn-plus">-</span></p>
+            <p>Kₙ⁻: <span class="kn-minus">-</span></p>
+            <p>Тест: <span class="Kn-status">-</span></p>
+            
+        </div>
+        <div>
+            <button class="try3 btn">Покер-критерий</button>
+            <p>χ²: <span class="poker">-</span></p>
+            <p>Тест: <span class="poker-status">-</span></p>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
