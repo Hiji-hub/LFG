@@ -2,9 +2,12 @@ body {
     width: 100vw;
     background-color: lightgray;
 }
+.name {
+    text-align: center;
+}
 .text {
     width: 80vw;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
 }
 textarea {
     width: 100%;
