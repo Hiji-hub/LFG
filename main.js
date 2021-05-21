@@ -77,7 +77,7 @@ const KSTry = () => {
     const KnMinusLabel = document.querySelector('.kn-minus')
     const KSStatusLabel = document.querySelector('.Kn-status')
 
-    const valuesNumber = 300
+    const valuesNumber = 30
     const mod = 4294967296
     let tryArray = []
     for(let i=0; i<valuesNumber; i++)tryArray.push(generateFunc()/mod)
